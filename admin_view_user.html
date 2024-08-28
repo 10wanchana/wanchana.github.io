@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View User</title>
+</head>
+<body>
+    <h1>User Details</h1>
+    <p><strong>ID:</strong> {{ user[0] }}</p>
+    <p><strong>Name:</strong> {{ user[1] }}</p>
+    <p><strong>Email:</strong> {{ user[2] }}</p>
+    <p><strong>Phone:</strong> {{ user[3] }}</p>
+
+    <a href="{{ url_for('admin_users') }}">Back to User List</a>
+</body>
+</html>
